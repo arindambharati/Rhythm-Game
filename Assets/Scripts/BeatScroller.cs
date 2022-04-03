@@ -5,7 +5,7 @@ public class BeatScroller : MonoBehaviour
     [SerializeField] private float beatTempo;
     [SerializeField] private bool hasStarted;
 
-
+    
     void Start()
     {
         beatTempo = beatTempo / 60f;
